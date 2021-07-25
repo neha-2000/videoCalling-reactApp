@@ -6,7 +6,7 @@ const Notifications = () => {
     const {answerCall, call, callAccepted } = useContext(SocketContext);
     return (
         <div>
-            <h1>Notification</h1>
+            <h1>Notification display</h1>
              {/* {call.isReceivingCall && !callAccepted  &&(
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <h1>{call.name} is calling:</h1>
