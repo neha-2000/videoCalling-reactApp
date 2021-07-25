@@ -9,11 +9,12 @@ const socket=io('https://myvideochat-react.herokuapp.com/');
 const ContextProvider =({children}) => {
     const [stream, setStream]= useState(null);
     const [me, setMe]= useState('');
-    const [call, setCall]= useState();
+    const [call, setCall]= useState({isReceivingCall: 'false'});
 
     const [callAccepted, setCallAccepted]= useState(false); 
     const [callEnded, setCallEnded]= useState(false);
     const [name, setName]= useState('');
+    
 
     const myVideo=useRef();
     const userVideo=useRef();
