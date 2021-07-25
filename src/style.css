@@ -1,0 +1,7 @@
+body{
+    background: url("./backig.jpg");   
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat; 
+}
